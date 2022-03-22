@@ -28,3 +28,34 @@ if kick < valor_aleatorio:
   print'Chute was less than the generated value'
 if kick = valor_aleatorio:
   print'You got it right!'
+
+
+<h2>Traduzido em português</h2>
+
+Escreva um programa que, ao iniciar gera um valor aleatório de 1 a 10 e permite que o usuário chute um número até que o valor aleatório gerado no ínicio do programa seja chutado corretamente.
+
+O programa deve informar se o chute foi acima, abaixo ou igual ao valor aleatório gerado no ínicio do programa.
+
+# # Método 5Q´s para montar um algorítimo:
+
+Analise críticamente o problema e descubra:
+(tente explicar este problema para você mesmo em voz alta e peça mais informações/investigue mais até você compreender completamente o problema.)
+
+1. Quais são os dados de entrada necessários?
+- Valor aleatório de 1 a 10
+- Chute do usuário
+2. O que devo fazer com estes dados?
+- Eu devo comparar o chute do usuário com o valor aleatório que foi gerado no ínicio do programa e dizer se o chute foi maior, menor ou igual ao valor que foi gerado no ínicio do programa.
+3. Quais são as restrições deste problema?
+- Um valor aleatório de 1 a 10
+4. Qual é o resultado esperado?
+- O resultado esperado é que o programa deve informar se o chute foi acima, abaixo ou igual ao valor aleatório gerado no ínicio do programa.
+5. Qual é a sequencia de passos a ser feitas para chegar ao resultado esperado?
+input valor_aleatorio
+input chute
+if chute > valor_aleatorio:
+  print'Chute foi maior que o valor gerado'
+if chute < valor_aleatorio:
+  print'Chute foi menor que o valor gerado'
+if chute = valor_aleatorio:
+  print'Você acertou!'
